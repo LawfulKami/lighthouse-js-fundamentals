@@ -1,18 +1,12 @@
-const isCitizen = !true;
-const age = 26;
-
-if (isCitizen && age > 18) {
-  console.log("You are eligible to vote.");
+var laugh = function(num) {
+  let x = 0;
+  let sound = '';
+  while (x <= num) {
+      sound = sound + 'ha';
+      x ++
+  };
+  return sound;
 }
+  
 
-const temperature = 35
-
-if (temperature < -40 || temperature > 40) {
-  console.log('Maybe going outside isn\'t such a great idea…');
-}
-
-const raining = true
-
-if (!raining) {
-  console.log("Leave your umbrella at home!");
-}
+console.log(laugh(10));
